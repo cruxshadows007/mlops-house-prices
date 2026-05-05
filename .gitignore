@@ -1,0 +1,14 @@
+# data
+data/
+*.zip
+
+# mlflow
+mlruns/
+mlflow.db
+
+# models
+models/*.pkl
+
+# python
+__pycache__/
+*.pyc
