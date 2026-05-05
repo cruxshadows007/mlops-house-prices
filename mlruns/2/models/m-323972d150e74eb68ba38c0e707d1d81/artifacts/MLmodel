@@ -1,0 +1,23 @@
+artifact_path: /home/hansl/mlops-house-prices/mlruns/2/models/m-323972d150e74eb68ba38c0e707d1d81/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.20
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+    skops_trusted_types: null
+mlflow_version: 3.12.0
+model_id: m-323972d150e74eb68ba38c0e707d1d81
+model_size_bytes: 4660076
+model_uuid: m-323972d150e74eb68ba38c0e707d1d81
+prompts: null
+run_id: 9b2dc067c1f448c9a17403183e3896a6
+utc_time_created: '2026-05-05 21:52:52.551504'
